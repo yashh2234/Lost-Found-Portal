@@ -1,0 +1,6 @@
+{
+  "watch": ["server.ts", "db.ts", "models"],
+  "ext": "ts,json",
+  "ignore": ["dist"],
+  "exec": "ts-node --esm server.ts"
+}
