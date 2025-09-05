@@ -22,11 +22,12 @@ cd backend
 npm run dev
 ```
 Notes:
-~ Frontend runs on http://localhost:5173
-~ Backend runs on http://localhost:5000
-~ Keep both servers running simultaneously.
+- Frontend runs on http://localhost:5173
+- Backend runs on http://localhost:5000
+- Keep both servers running simultaneously.
 
-#### Project Structure
+## Project Structure
+```
 lost_found_portal/
 │
 ├── backend/       # Node.js/Express backend
@@ -34,24 +35,25 @@ lost_found_portal/
 ├── public/        # Public frontend assets
 ├── package.json   # Frontend dependencies
 └── README.md      # Project documentation
+```
 
-##### Features
+## Features
 
 ### Backend
-~ CRUD operations for lost/found items
-~ Workflow states: Pending Approval, Approved, Claimed
-~ API for moderators to approve or reject items
-~ Notification endpoint (simulated via console log or toast message)
+- CRUD operations for lost/found items
+- Workflow states: Pending Approval, Approved, Claimed
+- API for moderators to approve or reject items
+- Notification endpoint (simulated via console log or toast message)
 
 ### Frontend
-~ Submission form for lost/found items
-~ Moderator dashboard for approvals
-~ Public list of approved items
+- Submission form for lost/found items
+- Moderator dashboard for approvals
+- Public list of approved items
 
 ### Database
-~ Items table with status and claimant ID
+- Items table with status and claimant ID
 
-###### Technologies Used
-~ Frontend: React, TypeScript, Vite
-~ Backend: Node.js, Express
-~ Database: MongoDB
+## Technologies Used
+- Frontend: React, TypeScript, Vite
+- Backend: Node.js, Express
+- Database: MongoDB
